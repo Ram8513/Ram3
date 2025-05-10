@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My School</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">My School</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Welcome to My School</h1>
+        <p>Empowering students for a brighter future.</p>
+        <a href="#about" class="btn">Learn More</a>
+      </div>
+    </section>
+  </header>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>My School is a place of excellence where students are inspired to achieve their potential through quality education and lifelong values.</p>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Why Choose Us</h2>
+      <div class="feature-grid">
+        <div class="feature-item">
+          <h3>Qualified Teachers</h3>
+          <p>Experienced and passionate educators committed to student success.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Modern Facilities</h3>
+          <p>Smart classrooms, labs, library, and sports facilities to enhance learning.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Holistic Development</h3>
+          <p>Focus on academics, arts, sports, and social responsibility.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 My School. All rights reserved.</p>
+      <p>Email: info@myschool.edu | Phone: (123) 456-7890</p>
+    </div>
+  </footer>
+</body>
+</html>
